@@ -1,0 +1,140 @@
+body{
+
+    background-color: #263238;
+    color: white;
+
+}
+
+#login-form-area{
+    width:400px;
+    height: 250px;
+    padding:40px;
+    position: absolute;
+    margin-top:10px;
+    margin-left:500px;
+    background-color:#f44336;
+    text-align: center;
+    display: block;
+}
+
+@media only screen and (max-width: 768px){
+        
+    #login-form-area{
+        width:300px;
+        height: 350px;
+        padding:40px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 40px;
+        background-color:#f44336;
+        text-align: center;
+        display: block;
+    }
+}
+
+#login-form-area input[type="text"]{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 14px 10px 20px;
+    width: 200px;
+    color: white;
+    transition: 0.25s;
+    border: 2px solid #66bb6a;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+#login-form-area input[type="text"]:focus{
+    width: 280px;  
+    border: none;  
+}
+
+
+#login-form-area input[type="submit"]{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    background: none;
+    padding: 14px ;
+    width: 100px;
+    color:wheat;
+    transition: 0.25s;
+    border: 2px solid ;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+#login-form-area input[type="submit"]:hover{
+    background: #66bb6a;
+    border-radius: 10px;
+    border: none;
+}
+
+#login-text{
+    color:white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 13px;
+}
+
+h1{
+    color:#66bb6a;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#display-area{
+    
+    width:85%;
+    height: 85%;
+    padding:40px;
+    position: absolute;
+    top:10%;
+    left:10%;
+    transform: translate(-50%,-50%);
+    background-color:#f44336;
+    text-align: center;
+    display: block;
+
+}
+
+#list{
+    margin-top: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:#f44336;
+    text-align: center;
+    border-radius: 10%;
+    list-style: none;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 768px){
+
+#list{
+    
+    margin-top: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #263238;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+
+}
+
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+}
